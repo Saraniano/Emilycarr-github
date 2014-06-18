@@ -11,10 +11,6 @@
 
 <!-- <link rel="stylesheet" href="css/style.css"/> -->
 <link rel="stylesheet" href="css/animate.min.css"/>
-<!-- nav -->
-<link rel="stylesheet" href="css/styleNav.css"/>
-<script src="js/Navpacificview.js"></script>
-
 
 <!-- <link rel="stylesheet" href="css/gridiculous.css"/>
  -->
@@ -46,111 +42,32 @@
 
 <!--navigation-->
 
-<nav id="menu-wrap">    
-	<ul id="menu">
-		<li><a href="/">video</a></li>
-		<li>
-			<a href="">photography</a>
-			<ul>
-				<li>
-					<a href="">Countries</a>
-					<ul>
-						<li><a href="">Iran</a></li>
-						<li><a href="">Nepal</a></li>
-						<li><a href="">Italy</a></li>
-						<li><a href="">Canada</a></li>
-					</ul>				
-				</li>
-				<li>
-					<a href="">Event</a>
-					<ul>
-						<li><a href="">ShowMax</a></li>
-						<li><a href="">TMevent</a></li>
-					</ul>				
-				</li>
-				<li>
-					<a href="">Street photo</a>
-					<ul>
-						<li><a href="">Social</a></li>
-						<li><a href="">Life</a></li>
-					</ul>				
-				</li>
-				<li>
-					<a href="">Others</a>				
-					<ul>
-						<li><a href="">Kent</a></li>
-						<li><a href="">sara</a></li>
-						<li><a href="">Dan</a></li>
-						<li><a href="">Ruan</a></li>
-					</ul>	
-				</li>
-			</ul>
-		</li>
-		<li>
-			<a href="">Fashion</a>
-			<ul>
-				<li>
-					<a href="">Work 1</a>
-					<ul>
-						<li>
-							<a href="">Work 11</a>		
-							<ul>
-								<li><a href="">Work 111</a></li>
-								<li><a href="">Work 112</a></li>
-								<li><a href="">Work 113</a></li>
-							</ul>							
-						</li>
-						<li>
-							<a href="">Work 12</a>
-							<ul>
-								<li><a href="">Work 121</a></li>
-								<li><a href="">Work 122</a></li>
-								<li><a href="">Work 123</a></li>
-							</ul>							
-						</li>
-						
-					</ul>					
-				</li>
-				<li>
-					<a href="">Work 2</a>
-					<ul>
-						<li>
-							<a href="">Work 21</a>
-							<ul>
-								<li><a href="">Work 211</a></li>
-								<li><a href="">Work 212</a></li>
-								<li><a href="">Work 213</a></li>
-							</ul>							
-						</li>
-						<li>
-							<a href="">Work 22</a>
-							<ul>
-								<li><a href="">Work 221</a></li>
-								<li><a href="">Work 222</a></li>
-								<li><a href="">Work 223</a></li>
-							</ul>							
-						</li>
-						<li>
-							<a href="">Work 23</a>
-							<ul>
-								<li><a href="">Work 231</a></li>
-								<li><a href="">Work 232</a></li>
-								<li><a href="">Work 233</a></li>
-							</ul>							
-						</li>
-					</ul>					
-				</li>
-				<li>
-					<a href="">Work 3</a>				
-				</li>
-			</ul>		
-		</li>
-    <li><a href="">News</a></li>
-		<li><a href="">Blog</a></li>
-		<li><a href="">About</a></li>
-		<li><a href="">Contact</a></li>
-    <li><a href='#'>
-      <span class="button" id="toggle-login">My cart</span></a>
+<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='index2.html'><span>Video</span></a></li>
+   <li class='has-sub'><a href='#'><span>Photography</span></a>
+      <ul>
+         <li class='has-sub'><a href='#'><span>Countries</span></a>
+            <ul>
+               <li><a href='#'><span>Iran</span></a></li>
+               <li class='last'><a href='#'><span>Nepal</span></a></li>
+            </ul>
+         </li>
+         <li class='has-sub'><a href='#'><span>Event</span></a>
+            <ul>
+               <li><a href='#'><span>Showmax</span></a></li>
+               <li class='last'><a href='#'><span>Others</span></a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li><a href='#'><span>Fashion</span></a></li>
+   <li><a href='#'><span>News</span></a></li>
+   <li><a href='#'><span>Blog</span></a></li>
+   <li><a href='#'><span>About</span></a></li>
+   <li><a href='#'><span>Contact</span></a></li>
+   <li class='last'><a href='#'>
+	   		<span class="button" id="toggle-login">My cart</span>
 
 			<div id="login">
 			  <div id="triangle"></div>
@@ -163,10 +80,12 @@
 			</div>
 		</a>
 	</li>
+</ul>
 
-	</ul>
-</nav>
+<!-- login form -->
 
+<!-- end login -->
+</div>
 
 	</header>
 
@@ -212,6 +131,8 @@
 	  <section class="col-1-3">
 
 	    <a href="#"><img src="img/Photography.jpg" alt="fineart"></a>
+
+	    <a id="phototitle" href="#">Photography</a>
 	  </section>
 
 	  <!-- video 	  -->
@@ -226,23 +147,20 @@
 
 	    	<!-- <iframe width="300" height="186" src="http://www.youtube.com/embed/aICCLnBMJ5U" frameborder="0" allowfullscreen></iframe> -->
 	  	<a href="#"><img src="img/Video.jpg" alt="fineart"></a>
+	  	
+	  	<a id="videotitle" href="#">Video</a>
 	  </section>
 
 	  <!--fashion -->
 
 	  <section class="col-3-3">
 	    <a href="#"><img src="img/Fashion.jpg" alt="fashion"></a>
+
+	     <a id="fashiontitle" href="#">Fashion</a>
 	  </section>
 
 
 
-	<ul class="titr">
-	  
-	    <li><a href="#">Photography</a></li>
-	    <li><a href="#">Video</a></li>
-	    <li><a href="#">Fashion</a></li>
-
-	</ul>
 
 </section>
 

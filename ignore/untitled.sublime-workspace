@@ -184,6 +184,11 @@
 	},
 	"file_history":
 	[
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Pacificview/index.html",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/testing pacific view/Nav,pacificView/index.html",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/testing pacific view/Nav,pacificView/css/style.css",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/testing pacific view/Nav,pacificView/js/pacificview.js",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Pacificview/css/style.css",
 		"/Users/sarazandi/Documents/Emily Carr/05-Web dev1. Friday/Final project/Pacificview/css/styleMobile.css",
 		"/Users/sarazandi/Documents/Emily Carr/05-Web dev1. Friday/Final project/Pacificview/index.html",
 		"/Users/sarazandi/Documents/Emily Carr/05-Web dev1. Friday/Project1/Drupal/css/style.css",
@@ -212,6 +217,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1200px",
 			"width: 1200px;",
 			"1200px",
 			"slideindown",
@@ -295,7 +301,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.465685142885,
 			1.0
 		],
 		"rows":
