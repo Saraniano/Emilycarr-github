@@ -1,8 +1,11 @@
-$('#toggle-login').click(function(){
-  $('#login').toggle();
+	
+// bird
+
+	$(document).ready(function() {
+   alert('hi');
 });
 
-// bird
+
 
 /* $('#greybird1').click(function(e){
     $(this).toggleClass('new-class');
@@ -21,15 +24,3 @@ $('#toggle-login').click(function(){
 
 // });
 // }
-
-// $(document).ready(function() {
-  
-// 		alert("Hello World");
-
-// });
-
-	$(document).ready(function() {
-   alert('hi');
-});
-
-

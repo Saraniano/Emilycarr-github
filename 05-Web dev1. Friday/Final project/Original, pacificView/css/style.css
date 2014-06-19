@@ -164,6 +164,7 @@ h1{
   	float:left;
   	vertical-align: top;
     width:33.3333%;
+    position: relative;
 }
 
 .grid{
@@ -197,8 +198,6 @@ h1{
 #fashiontitle
 {
     font-size: 30px;
-    position: absolute;
-    left:100px;
     z-index: 50;
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
@@ -206,9 +205,22 @@ h1{
     writing-mode: tb-rl;
 }
 
+#phototitle {
+  left:360px;
+  position: absolute;
+}
+
+#videotitle{
+  left:395px;
+  top: 100px;
+  position: absolute;
+}
 
 
-
+#fashiontitle{
+  left:100px;
+  position: absolute;
+}
 
 .blog {
   	clear:left;
@@ -216,8 +228,15 @@ h1{
     height: 27%;
     width: 100%;
     line-height: 170%;
-
+    position: relative;
 }
+.extra{
+  position: absolute;
+  left: 500px;
+  background-color: white;
+  z-index: 100;
+}
+
  
 .sectiontitle{
   animation-name: slideDown;

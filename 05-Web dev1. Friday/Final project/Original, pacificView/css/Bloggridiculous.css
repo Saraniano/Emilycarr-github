@@ -65,9 +65,7 @@ body{
 	font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
 	text-align: center;
 }
-#title{
-	margin-bottom: 55px;
-}
+
 h1{
  	font-size: 72px;
     font-weight: 800;
@@ -180,6 +178,14 @@ h2 {
 
 	visibility: visible !important;	
 }
+#pacificlogo:hover{
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
 
 @keyframes slideLeft {
 	0% {
@@ -456,6 +462,10 @@ to { -o-transform: scale(1) opacity: 0.5;}
 
 }
 #title{
+	margin-bottom: 55px;
+}
+
+/*#title h1,h2{
 		animation-name: expandOpen;
 	-webkit-animation-name: expandOpen;	
 
@@ -506,36 +516,62 @@ to { -o-transform: scale(1) opacity: 0.5;}
 	-webkit-animation-fill-mode: forwards;				
 }
 
+}*/
+
+/*#greybird1:hover{
+	border:5px solid red;
+}*/
+.greybird1{
+	background-color: red;
+
+	animation-name: expandOpen;
+	-webkit-animation-name: expandOpen;	
+
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;	
+
+	visibility: visible !important;	
 }
 
-#greybird1{
-
-
--webkit-animation: cssAnimation 0.5231s 16 ease;
--moz-animation: cssAnimation 0.5231s 16 ease;
--o-animation: cssAnimation 0.5231s 16 ease;
--moz-animation:first_num 6s ease-in-out;
--moz-animation-fill-mode:forwards;
--webkit-animation:first_num 6s ease-in-out;
--webkit-animation-fill-mode:forwards;
-animation:first_num 6s ease-in-out;
-animation-fill-mode:forwards;
-}
-@-webkit-keyframes cssAnimation {
-from { -webkit-transform:  scale(1.175)  translate(-210px); }
-to { -webkit-transform:  scale(1); }
-}
-@-moz-keyframes cssAnimation {
-from { -moz-transform:  scale(1.175) skew(0deg) translate(-210px); }
-to { -moz-transform:  scale(1);
- }
-}
-@-o-keyframes cssAnimation {
-from { -o-transform: scale(1.175) translate(-210px); }
-to { -o-transform: scale(1) opacity: 0.5;}
+@keyframes expandOpen {
+	0% {
+		transform: scale(2);		
+	}
+	50% {
+		transform: scale(0.95);
+	}	
+	80% {
+		transform: scale(1.05);
+	}
+	90% {
+		transform: scale(0.98);
+	}	
+	100% {
+		transform: scale(2);
+	}			
 }
 
+@-webkit-keyframes expandOpen {
+	0% {
+		-webkit-transform: scale(2);		
+	}
+	50% {
+		-webkit-transform: scale(0.95);
+	}	
+	80% {
+		-webkit-transform: scale(1.05);
+	}
+	90% {
+		-webkit-transform: scale(0.98);
+	}	
+	100% {
+		-webkit-transform: scale(2);
+	}	
+	-webkit-animation-fill-mode: forwards;				
+}
 
-
-
-
+}
