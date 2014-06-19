@@ -4,16 +4,28 @@
 		"selected_items":
 		[
 			[
-				"ma",
-				"margin"
+				"border",
+				"border-radius"
 			],
 			[
 				"pa",
 				"padding-bottom"
 			],
 			[
+				"ma",
+				"margin-bottom"
+			],
+			[
 				"mar",
-				"margin-top"
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"h",
+				"h3	Tag"
 			],
 			[
 				"te",
@@ -42,10 +54,6 @@
 			[
 				"inl",
 				"inline-block"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"P",
@@ -184,9 +192,15 @@
 	},
 	"file_history":
 	[
-		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Pacificview/index.html",
-		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/testing pacific view/Nav,pacificView/index.html",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/BlogPage/cbavota-Gridiculous-998d44e 5/Bloggridiculous.css",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/BlogPage/cbavota-Gridiculous-998d44e 5/index.html",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/index.html",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/BlogPage/css/styleNav.css",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/BlogPage/index.html",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/testing pacific view/Nav,pacificView/css/style.css",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/css/style.css",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/testing pacific view/Nav,pacificView/index.html",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Pacificview/index.html",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/testing pacific view/Nav,pacificView/js/pacificview.js",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Pacificview/css/style.css",
 		"/Users/sarazandi/Documents/Emily Carr/05-Web dev1. Friday/Final project/Pacificview/css/styleMobile.css",
@@ -217,6 +231,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"site-container",
+			"secondmenu",
 			"1200px",
 			"width: 1200px;",
 			"1200px",
