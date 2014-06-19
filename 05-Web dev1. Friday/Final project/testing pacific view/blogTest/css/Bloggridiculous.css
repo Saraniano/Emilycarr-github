@@ -65,9 +65,7 @@ body{
 	font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
 	text-align: center;
 }
-#title{
-	margin-bottom: 55px;
-}
+
 h1{
  	font-size: 72px;
     font-weight: 800;
@@ -103,6 +101,7 @@ small{
 a{
 	color: #FFFFFF;
     text-decoration: none;
+    display: block;
 }
 #socialMedia a{
 	display: inline-block;
@@ -120,7 +119,7 @@ img {
     max-width: 100%;
     width: auto;
 }
-#imgtitle img:hover{
+/*#imgtitle img:hover{
 	-moz-transform: scale(1.2);
 	-webkit-transform: scale(1.2);
 	-o-transform: scale(1.2);
@@ -130,9 +129,9 @@ img {
 	-moz-border-radius: 200px 200px 200px 200px;
 	-webkit-border-radius: 200px 200px 200px 200px;
 	border: 3px solid #b5b5b5;
-	}
+	}*/
 #imgtitle h3:hover{
-		-moz-transform: scale(1.2);
+	-moz-transform: scale(1.2);
 	-webkit-transform: scale(1.2);
 	-o-transform: scale(1.2);
 	-ms-transform: scale(1.2);
@@ -146,26 +145,95 @@ img {
 }
 
 #imgtitle img{
-		width: 33%
+	width: 33%
 }
-#greybird{
+#imgtitle a{
+	display: block;
+}
 
--webkit-animation: cssAnimation 0.5231s 16 ease;
--moz-animation: cssAnimation 0.5231s 16 ease;
--o-animation: cssAnimation 0.5231s 16 ease;
+.imgtitle2:hover{
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	border: 3px solid #b5b5b5;
 }
-@-webkit-keyframes cssAnimation {
-from { -webkit-transform: rotate(0deg) scale(1.175) skew(0deg) translate(-210px); }
-to { -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); }
+
+#pacificlogo img,
+h1,
+h2 {
+
+	animation-name: slideLeft;
+	-webkit-animation-name: slideLeft;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
 }
-@-moz-keyframes cssAnimation {
-from { -moz-transform: rotate(0deg) scale(1.175) skew(0deg) translate(-210px); }
-to { -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); }
+#pacificlogo:hover{
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
 }
-@-o-keyframes cssAnimation {
-from { -o-transform: rotate(0deg) scale(1.175) skew(0deg) translate(-210px); }
-to { -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); }
+
+
+@keyframes slideLeft {
+	0% {
+		transform: translateX(150%);
+	}
+	50%{
+		transform: translateX(-8%);
+	}
+	65%{
+		transform: translateX(4%);
+	}
+	80%{
+		transform: translateX(-4%);
+	}
+	95%{
+		transform: translateX(2%);
+	}			
+	100% {
+		transform: translateX(0%);
+	}
 }
+
+@-webkit-keyframes slideLeft {
+	0% {
+		-webkit-transform: translateX(150%);
+	}
+	50%{
+		-webkit-transform: translateX(-8%);
+	}
+	65%{
+		-webkit-transform: translateX(4%);
+	}
+	80%{
+		-webkit-transform: translateX(-4%);
+	}
+	95%{
+		-webkit-transform: translateX(2%);
+	}			
+	100% {
+		-webkit-transform: translateX(0%);
+	}
+}
+
+#pacificlogo img{
+	position: absolute;
+	top: 30px;
+}
+
 
 #firstcolum{
 
@@ -296,18 +364,7 @@ to { -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); }
 	0% {
 		transform: translateX(150%);
 	}
-	50%{
-		transform: translateX(-8%);
-	}
-	65%{
-		transform: translateX(4%);
-	}
-	80%{
-		transform: translateX(-4%);
-	}
-	95%{
-		transform: translateX(2%);
-	}			
+			
 	100% {
 		transform: translateX(0%);
 	}
@@ -317,18 +374,7 @@ to { -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); }
 	0% {
 		-webkit-transform: translateX(150%);
 	}
-	50%{
-		-webkit-transform: translateX(-8%);
-	}
-	65%{
-		-webkit-transform: translateX(4%);
-	}
-	80%{
-		-webkit-transform: translateX(-4%);
-	}
-	95%{
-		-webkit-transform: translateX(2%);
-	}			
+			
 	100% {
 		-webkit-transform: translateX(0%);
 	}
@@ -337,6 +383,90 @@ to { -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); }
 
 #greybird{
 
+-webkit-animation: cssAnimation 0.5231s 16 ease;
+-moz-animation: cssAnimation 0.5231s 16 ease;
+-o-animation: cssAnimation 0.5231s 16 ease;
+-moz-animation:first_num 6s ease-in-out;
+-moz-animation-fill-mode:forwards;
+-webkit-animation:first_num 6s ease-in-out;
+-webkit-animation-fill-mode:forwards;
+animation:first_num 6s ease-in-out;
+animation-fill-mode:forwards;
+}
+@-webkit-keyframes cssAnimation {
+from { -webkit-transform:  scale(1.175)  translate(-210px); }
+to { -webkit-transform:  scale(1); }
+}
+@-moz-keyframes cssAnimation {
+from { -moz-transform:  scale(1.175) translate(-210px); }
+to { -moz-transform: opacity:0.5, scale(1);
+ }
+}
+@-o-keyframes cssAnimation {
+from { -o-transform: scale(1.175) translate(-210px); }
+to { -o-transform: scale(1) opacity: 0.5;}
+}
+
+
+#greybird{
+
+
+	animation-name: expandOpen;
+	-webkit-animation-name: expandOpen;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;	
+
+	visibility: visible !important;	
+}
+
+@keyframes expandOpen {
+	0% {
+		transform: scale(2);		
+	}
+	50% {
+		transform: scale(0.95);
+	}	
+	80% {
+		transform: scale(1.05);
+	}
+	90% {
+		transform: scale(0.98);
+	}	
+	100% {
+		transform: scale(2);
+	}			
+}
+
+@-webkit-keyframes expandOpen {
+	0% {
+		-webkit-transform: scale(2);		
+	}
+	50% {
+		-webkit-transform: scale(0.95);
+	}	
+	80% {
+		-webkit-transform: scale(1.05);
+	}
+	90% {
+		-webkit-transform: scale(0.98);
+	}	
+	100% {
+		-webkit-transform: scale(2);
+	}	
+	-webkit-animation-fill-mode: forwards;				
+}
+
+}
+#title{
+	margin-bottom: 55px;
+}
+
+.greybird1{
+	background-color: red;
 
 	animation-name: expandOpen;
 	-webkit-animation-name: expandOpen;	
@@ -389,62 +519,3 @@ to { -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); }
 }
 
 }
-#title{
-		animation-name: expandOpen;
-	-webkit-animation-name: expandOpen;	
-
-
-	animation-duration: 1s;	
-	-webkit-animation-duration: 1s;
-
-	animation-timing-function: ease-out;	
-	-webkit-animation-timing-function: ease-out;	
-
-	visibility: visible !important;	
-}
-
-@keyframes expandOpen {
-	0% {
-		transform: scale(2);		
-	}
-	50% {
-		transform: scale(0.95);
-	}	
-	80% {
-		transform: scale(1.05);
-	}
-	90% {
-		transform: scale(0.98);
-	}	
-	100% {
-		transform: scale(2);
-	}			
-}
-
-@-webkit-keyframes expandOpen {
-	0% {
-		-webkit-transform: scale(2);		
-	}
-	50% {
-		-webkit-transform: scale(0.95);
-	}	
-	80% {
-		-webkit-transform: scale(1.05);
-	}
-	90% {
-		-webkit-transform: scale(0.98);
-	}	
-	100% {
-		-webkit-transform: scale(2);
-	}	
-	-webkit-animation-fill-mode: forwards;				
-}
-
-}
-
-
-
-
-
-
-

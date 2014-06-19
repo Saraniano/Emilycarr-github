@@ -231,33 +231,7 @@ h2 {
 
 #pacificlogo img{
 	position: absolute;
-	top: 40px;
-}
-
-#greybird{
-
--webkit-animation: cssAnimation 0.5231s 16 ease;
--moz-animation: cssAnimation 0.5231s 16 ease;
--o-animation: cssAnimation 0.5231s 16 ease;
--moz-animation:first_num 6s ease-in-out;
--moz-animation-fill-mode:forwards;
--webkit-animation:first_num 6s ease-in-out;
--webkit-animation-fill-mode:forwards;
-animation:first_num 6s ease-in-out;
-animation-fill-mode:forwards;
-}
-@-webkit-keyframes cssAnimation {
-from { -webkit-transform:  scale(1.175)  translate(-210px); }
-to { -webkit-transform:  scale(1); }
-}
-@-moz-keyframes cssAnimation {
-from { -moz-transform:  scale(1.175) translate(-210px); }
-to { -moz-transform: opacity:0.5, scale(1);
- }
-}
-@-o-keyframes cssAnimation {
-from { -o-transform: scale(1.175) translate(-210px); }
-to { -o-transform: scale(1) opacity: 0.5;}
+	top: 30px;
 }
 
 
@@ -409,10 +383,36 @@ to { -o-transform: scale(1) opacity: 0.5;}
 
 #greybird{
 
+-webkit-animation: cssAnimation 0.5231s 16 ease;
+-moz-animation: cssAnimation 0.5231s 16 ease;
+-o-animation: cssAnimation 0.5231s 16 ease;
+-moz-animation:first_num 6s ease-in-out;
+-moz-animation-fill-mode:forwards;
+-webkit-animation:first_num 6s ease-in-out;
+-webkit-animation-fill-mode:forwards;
+animation:first_num 6s ease-in-out;
+animation-fill-mode:forwards;
+}
+@-webkit-keyframes cssAnimation {
+from { -webkit-transform:  scale(1.175)  translate(-210px); }
+to { -webkit-transform:  scale(1); }
+}
+@-moz-keyframes cssAnimation {
+from { -moz-transform:  scale(1.175) translate(-210px); }
+to { -moz-transform: opacity:0.5, scale(1);
+ }
+}
+@-o-keyframes cssAnimation {
+from { -o-transform: scale(1.175) translate(-210px); }
+to { -o-transform: scale(1) opacity: 0.5;}
+}
+
+
+#greybird{
+
 
 	animation-name: expandOpen;
 	-webkit-animation-name: expandOpen;	
-
 
 	animation-duration: 1s;	
 	-webkit-animation-duration: 1s;
@@ -465,62 +465,6 @@ to { -o-transform: scale(1) opacity: 0.5;}
 	margin-bottom: 55px;
 }
 
-/*#title h1,h2{
-		animation-name: expandOpen;
-	-webkit-animation-name: expandOpen;	
-
-
-	animation-duration: 1s;	
-	-webkit-animation-duration: 1s;
-
-	animation-timing-function: ease-out;	
-	-webkit-animation-timing-function: ease-out;	
-
-	visibility: visible !important;	
-}
-
-@keyframes expandOpen {
-	0% {
-		transform: scale(2);		
-	}
-	50% {
-		transform: scale(0.95);
-	}	
-	80% {
-		transform: scale(1.05);
-	}
-	90% {
-		transform: scale(0.98);
-	}	
-	100% {
-		transform: scale(2);
-	}			
-}
-
-@-webkit-keyframes expandOpen {
-	0% {
-		-webkit-transform: scale(2);		
-	}
-	50% {
-		-webkit-transform: scale(0.95);
-	}	
-	80% {
-		-webkit-transform: scale(1.05);
-	}
-	90% {
-		-webkit-transform: scale(0.98);
-	}	
-	100% {
-		-webkit-transform: scale(2);
-	}	
-	-webkit-animation-fill-mode: forwards;				
-}
-
-}*/
-
-/*#greybird1:hover{
-	border:5px solid red;
-}*/
 .greybird1{
 	background-color: red;
 
