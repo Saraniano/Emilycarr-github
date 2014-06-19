@@ -97,12 +97,13 @@ div#wrapper{
 .header{
   background-color: #e9bd3c;
   width: 100%;
-  height: 7%;
+  height: 6%;
   position: relative;
 }
 #logo{
   float: left;
   margin-top: 1.66666667%;
+  margin-left: 30px;
 }
 
 
@@ -214,6 +215,7 @@ h1{
     background-color: #d90779;
     height: 27%;
     width: 100%;
+    line-height: 170%;
 
 }
  
@@ -281,11 +283,13 @@ h1{
     float: left;
     margin-top: 70px;
   margin-left: 100px;
+  font-family: Noteworthy;
  }
 
 .blog h2 a{
   font-size: 22px;
   color: white;
+  font-family: Myriad Pro;
 }
 
 .blogarticle{
@@ -308,15 +312,18 @@ h1{
     height: 27%;
     width: 100%;
 }
-.news h2{
+.news h2 a{
   color: white;
   border-bottom: 2px solid white;
   padding: 2px;
   width: 100px;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 24px;
-
+  font-size: 26px;
+}
+.news h2{
+  padding-bottom: 20px;
+  font-family: Myriad Pro;
 }
 
 /*.extra{
@@ -331,18 +338,23 @@ h1{
   float:left;
   margin-top: 95px;
   margin-right: 50px;
+  line-height: 150%;
+
 }
 
 footer{
     background-color:#d4d3d6;
-    height: 8%;
+    height: 6%;
     width: 100%;
+}
+.footmenu{
+  margin-left: 80px;
 }
 .footmenuleft{
   width: 33.3333%;
   border-left: 2px solid white;
   float: left;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-left: 187px;
   padding-left: 5px;
 
@@ -351,7 +363,7 @@ footer{
   border-right: 2px solid white;
   float: left;
   text-align: right;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-right: 187px;
   margin-left: 300px;
   padding-right: 5px;
@@ -360,11 +372,9 @@ footer{
 .footmenu a{
   display: block;
   padding-bottom: 4px;
-
-
 }
 small{
 height: 30px;
-margin-left: 407px;
+margin-left: 450px;
 
 }
