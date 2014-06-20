@@ -97,16 +97,13 @@ div#wrapper{
 .header{
   background-color: #e9bd3c;
   width: 100%;
-  height: 26%;
-  position: fixed;
-  z-index:999;
+  height: 6%;
+  position: relative;
 }
 #logo{
   float: left;
   margin-top: 1.66666667%;
   margin-left: 30px;
-  z-index: 300;
-  position: fixed;
 }
 
 
@@ -137,8 +134,7 @@ h1{
 }
 .maincontent{
   width: 100%;
-  /*position: relative;
-  top:120px;*/
+  position: relative;
 }
 
 .social{
