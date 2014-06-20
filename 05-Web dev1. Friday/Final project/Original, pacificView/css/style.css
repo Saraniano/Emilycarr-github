@@ -138,8 +138,8 @@ h1{
 }
 
 .social{
-  position: absolute;
-  top: 200px;
+  position: fixed;
+  top: 300px;
   right: 50px;
   z-index: 50;
 
@@ -213,12 +213,14 @@ h1{
   top: 100px;
 }
 
-#phototitle:hover{
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+#phototitle:hover, #videotitle:hover,
+#fashiontitle:hover{
+  -moz-transform: scale(1.2) rotate(270deg);
+  -webkit-transform: scale(1.2) rotate(270deg);
+  -o-transform: scale(1.2) rotate(270deg);
+  -ms-transform: scale(1.2) rotate(270deg);
+  transform: scale(1.2) rotate(270deg);
+
 
 }
 
@@ -261,14 +263,16 @@ h1{
   margin-left: 100px;
   font-family: Noteworthy;
 }
-.sectiontitle,
-.blog a,
-.news a:hover{
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+
+.blog h2 a:hover, .news h2 a:hover{
+  -moz-transform: scale(3.2);
+  -webkit-transform: scale(3.2);
+  -o-transform: scale(3.2);
+  -ms-transform: scale(3.2);
+  transform: scale(3.2);
+
+ /* font-size: 32px;*/
+  border:5px solid red;
 }
 
 .blog h2 a{

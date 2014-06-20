@@ -4,12 +4,11 @@
 <meta charset="UTF-8">
 <title>PacificViewstudio</title>
 
-<!-- Separate CSS File -->
+<!-- Main CSS File -->
 <link href="css/style.css" rel="stylesheet" media="all and (min-width: 641px)">
 <!-- Mobile Site -->
 <link href="css/styleMobile.css" rel="stylesheet" media="all and (max-width: 640px)">
 
-<!-- <link rel="stylesheet" href="css/style.css"/> -->
 <link rel="stylesheet" href="css/animate.min.css"/>
 
 <!-- <link rel="stylesheet" href="css/gridiculous.css"/>
@@ -68,7 +67,7 @@
    <li><a href='#'><span>About</span></a></li>
    <li><a href='#'><span>Contact</span></a></li>
    <li class='last'><a href='#'>
-	   		<span id="toggle-login" class="button">My cart</span>
+	   		<span id="toggle-login" class="button">My cart</span></a>
 
 			<div id="login">
 			  <div id="triangle"></div>
@@ -79,7 +78,7 @@
 			    <input type="submit" value="Log in"/>
 			  </form>
 			</div>
-		</a>
+		
 	</li>
 </ul>
 
@@ -231,7 +230,7 @@
 				<ul>
 					<li><a href="#">FQ</a></li>
 					<li><a href="#">Privacy policy</a></li>
-					<li><a href="#">Gift Card</a></li>
+					<li><a href="#">Gix§ft Card</a></li>
 			    </ul>
 
 			</div>
@@ -245,6 +244,11 @@
 
 
 </div>
+<script>
+$('#toggle-login').click(function(){
+  $('#login').toggle();
+});
+</script>
 
 </body>
 </html>
