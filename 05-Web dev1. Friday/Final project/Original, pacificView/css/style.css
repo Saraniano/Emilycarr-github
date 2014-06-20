@@ -206,21 +206,20 @@ h1{
     writing-mode: tb-rl;
 }
 
-/*#phototitle,
-#videotitle,
-#fashiontitle:hover
-{
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-}*/
 
 #phototitle {
   left:360px;
   position: absolute;
   top: 100px;
+}
+
+#phototitle:hover{
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+
 }
 
 #videotitle{
@@ -243,6 +242,7 @@ h1{
     width: 100%;
     line-height: 170%;
     position: relative;
+
 }
 .extra{
   position: absolute;
@@ -253,63 +253,6 @@ h1{
 
  
 .sectiontitle{
-  animation-name: slideDown;
-  -webkit-animation-name: slideDown;  
-
-  animation-duration: 1s; 
-  -webkit-animation-duration: 1s;
-
-  animation-timing-function: ease;  
-  -webkit-animation-timing-function: ease;  
-
-  visibility: visible !important;           
-}
-
-@keyframes slideDown {
-  0% {
-    transform: translateY(-100%);
-  }
-  50%{
-    transform: translateY(8%);
-  }
-  65%{
-    transform: translateY(-4%);
-  }
-  80%{
-    transform: translateY(4%);
-  }
-  95%{
-    transform: translateY(-2%);
-  }     
-  100% {
-    transform: translateY(0%);
-  }   
-}
-
-@-webkit-keyframes slideDown {
-  0% {
-    -webkit-transform: translateY(-100%);
-  }
-  50%{
-    -webkit-transform: translateY(8%);
-  }
-  65%{
-    -webkit-transform: translateY(-4%);
-  }
-  80%{
-    -webkit-transform: translateY(4%);
-  }
-  95%{
-    -webkit-transform: translateY(-2%);
-  }     
-  100% {
-    -webkit-transform: translateY(0%);
-  } 
-}
-
-
-
-.sectiontitle{
     font-size: 60px;
     color: white;
     width: 26.666667%;
@@ -317,7 +260,16 @@ h1{
     margin-top: 70px;
   margin-left: 100px;
   font-family: Noteworthy;
- }
+}
+.sectiontitle,
+.blog a,
+.news a:hover{
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
 
 .blog h2 a{
   font-size: 22px;
