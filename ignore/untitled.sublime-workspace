@@ -4,16 +4,24 @@
 		"selected_items":
 		[
 			[
+				"fon",
+				"font-family"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
 				"border",
 				"border-radius"
 			],
 			[
 				"pa",
 				"padding-bottom"
-			],
-			[
-				"ma",
-				"margin-bottom"
 			],
 			[
 				"mar",
@@ -64,10 +72,6 @@
 				"ul	Tag"
 			],
 			[
-				"fo",
-				"footer	Tag"
-			],
-			[
 				"se",
 				"section	Tag"
 			],
@@ -102,10 +106,6 @@
 			[
 				"bo",
 				"body"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"c",
@@ -192,13 +192,24 @@
 	},
 	"file_history":
 	[
-		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/BlogPage/cbavota-Gridiculous-998d44e 5/Bloggridiculous.css",
-		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/BlogPage/cbavota-Gridiculous-998d44e 5/index.html",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/Read me",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Blog page/Blog.html",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/css/Bloggridiculous.css",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/js/blogjs.js",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/pages/Blog.html",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/index.html",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/css/style.css",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/testing pacific view/blogTest/js/blogjs.js",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/testing pacific view/blogTest/Blog.html",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/testing pacific view/blogTest/pages/Blog.html",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/js/index.js",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/css/styles.css",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/BlogPage/cbavota-Gridiculous-998d44e 5/index.html",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/css/animate.min.css",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/BlogPage/cbavota-Gridiculous-998d44e 5/Bloggridiculous.css",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/BlogPage/css/styleNav.css",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/BlogPage/index.html",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/testing pacific view/Nav,pacificView/css/style.css",
-		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/css/style.css",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/testing pacific view/Nav,pacificView/index.html",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Pacificview/index.html",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/testing pacific view/Nav,pacificView/js/pacificview.js",
@@ -231,6 +242,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"redbir",
+			"bird",
+			"moved",
+			"x",
+			"title",
+			"#title{\n",
+			"}\n",
+			"title",
 			"site-container",
 			"secondmenu",
 			"1200px",
@@ -352,6 +371,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 190.0,
 	"status_bar_visible": true
 }

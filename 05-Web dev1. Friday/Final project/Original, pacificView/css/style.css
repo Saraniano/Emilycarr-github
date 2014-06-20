@@ -199,15 +199,28 @@ h1{
 {
     font-size: 30px;
     z-index: 50;
+    color: white;
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
     -o-transform: rotate(270deg);
     writing-mode: tb-rl;
 }
 
+/*#phototitle,
+#videotitle,
+#fashiontitle:hover
+{
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}*/
+
 #phototitle {
   left:360px;
   position: absolute;
+  top: 100px;
 }
 
 #videotitle{
@@ -218,7 +231,8 @@ h1{
 
 
 #fashiontitle{
-  left:100px;
+  left:385px;
+  top: 100px;
   position: absolute;
 }
 
@@ -232,9 +246,9 @@ h1{
 }
 .extra{
   position: absolute;
-  left: 500px;
-  background-color: white;
+  left: 650px;
   z-index: 100;
+  top: -40px;
 }
 
  
@@ -330,6 +344,7 @@ h1{
     background-color:#77d4e3;
     height: 27%;
     width: 100%;
+    position: relative;
 }
 .news h2 a{
   color: white;
