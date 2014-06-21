@@ -56,8 +56,8 @@ table {
 ---------------------------------------*/
 div#wrapper{ 
     margin: auto;
-  width: 100%;
-  height: 2000px;
+  width: 640px;
+  height: 1136px;
 }
 
 /* ------------jquery start-------------------*/
@@ -65,7 +65,7 @@ div#wrapper{
   position: relative;
   list-style: none;
   overflow: hidden;
-  width: 100%;
+  width: 640px;
   padding: 0;
   margin: 0;
   }
@@ -74,7 +74,7 @@ div#wrapper{
   -webkit-backface-visibility: hidden;
   position: absolute;
   display: none;
-  width: 100%;
+  width: 640px;
   left: 0;
   top: 0;
   }
@@ -89,30 +89,27 @@ div#wrapper{
   display: block;
   height: auto;
   float: left;
-  width: 100%;
+  width: 640px;
   border: 0;
   }
   /* ------------jquery end-------------------*/
 
 .header{
   background-color: #e9bd3c;
-  width: 100%;
-  height: 17%;
-  position: fixed;
-  z-index:999;
+  width: 640px;
+  height: 120px;
+  position: relative;
 }
 #logo{
   float: left;
-  margin-top: 1.66666667%;
-  margin-left: 30px;
+  margin-top: 20px;
 }
-
 
 
 nav li{
     margin: 90px 0 10px 10px;
     display: inline-block;
-    padding:0 2.083333%;
+    padding:0 25px;
 }
 
 a {text-decoration:none;
@@ -131,29 +128,25 @@ h1{
 }
 
 .rslides{
-   width: 100%;
+   width: 640px;
 
 }
-.underMenu{
-  position: relative;
-  top: 120px;
-}
-
 .maincontent{
-  width: 100%;
+  width: 640px;
   position: relative;
 }
 
 .social{
-  position: fixed;
-  top: 300px;
+  position: absolute;
+  top: 200px;
   right: 50px;
-  z-index: 90;
-}
+  z-index: 50;
 
+}
 
 .social ul li {
   height:46px;
+
   border:0px solid red;
 }
 
@@ -161,14 +154,13 @@ h1{
   padding:0;
   margin:0;
 }
- .social ul li:hover{
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-}
 
+.secondmenu{
+  display: block;
+  width: 640px;
+  height: 240px;
+  position:relative;
+}
 .col-1-3,
 .col-2-3,
 .col-3-3 {
@@ -176,18 +168,15 @@ h1{
   	display: inline-block;
   	float:left;
   	vertical-align: top;
-    width:33.3333%;
-    position: relative;
-}
+    width:400px;
+    height: 244px;
 
-.grid{
-  position: relative;
-  z-index: 55;
 }
 .grid a{
   display: block;
 }
 .grid img{
+  width: 380px;
   width: 380px;
   margin-left: 10px;
   margin-top: 10px;
@@ -207,96 +196,118 @@ h1{
     background-color:#eabc3c;
 }
 
-#phototitle,
-#videotitle,
-#fashiontitle
-{
-    font-size: 30px;
-    z-index: 50;
-    color: white;
-    font-family: Myriad Pro;
-    -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
+.titr a{
+font-size: 30px;
+
+
 }
-
-
-#phototitle {
-  left:360px;
+.titr{
+  background-color: #d4d3d6;
+  z-index: 50;
+  border:0px solid red;
+  width:1200px;
+  opacity: 0.5;
   position: absolute;
-  top: 100px;
+  top:80px;
+  height: 80px;
 }
 
-#phototitle:hover, #videotitle:hover,
-#fashiontitle:hover{
-  -moz-transform: scale(1.2) rotate(270deg);
-  -webkit-transform: scale(1.2) rotate(270deg);
-  -o-transform: scale(1.2) rotate(270deg);
-  -ms-transform: scale(1.2) rotate(270deg);
-  transform: scale(1.2) rotate(270deg);
+.titr li,
+.titr a{
+  width: 93px;
+  height: 30px;
+  display: inline-block;
 }
-
-#videotitle{
-  left:395px;
-  top: 100px;
-  position: absolute;
+.titr li{
+  margin-left: 121px;
+  margin-top: 24px;
 }
-
-
-#fashiontitle{
-  left:385px;
-  top: 100px;
-  position: absolute;
+.titr 0{
+  margin-left: 200px;
 }
 
 .blog {
   	clear:left;
     background-color: #d90779;
-    height: 27%;
-    width: 100%;
-    line-height: 170%;
-    position: relative;
+    height: 450px;
+    width: 640px;
 
 }
-.extra{
-  position: absolute;
-  left: 650px;
-  z-index: 100;
-  top: -40px;
-}
-
  
+.sectiontitle{
+  animation-name: slideDown;
+  -webkit-animation-name: slideDown;  
+
+  animation-duration: 1s; 
+  -webkit-animation-duration: 1s;
+
+  animation-timing-function: ease;  
+  -webkit-animation-timing-function: ease;  
+
+  visibility: visible !important;           
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  50%{
+    transform: translateY(8%);
+  }
+  65%{
+    transform: translateY(-4%);
+  }
+  80%{
+    transform: translateY(4%);
+  }
+  95%{
+    transform: translateY(-2%);
+  }     
+  100% {
+    transform: translateY(0%);
+  }   
+}
+
+@-webkit-keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+  }
+  50%{
+    -webkit-transform: translateY(8%);
+  }
+  65%{
+    -webkit-transform: translateY(-4%);
+  }
+  80%{
+    -webkit-transform: translateY(4%);
+  }
+  95%{
+    -webkit-transform: translateY(-2%);
+  }     
+  100% {
+    -webkit-transform: translateY(0%);
+  } 
+}
+
+
+
 .sectiontitle{
     font-size: 60px;
     color: white;
-    width: 26.666667%;
+    width: 320px;
     float: left;
     margin-top: 70px;
   margin-left: 100px;
-  font-family: Noteworthy;
-}
-.blog a:hover,
-.blogarticle h2:hover,
-.news a:hover,
-.news h2:hover{
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-
- /* font-size: 32px;*/
-}
+ }
 
 .blog h2 a{
   font-size: 22px;
   color: white;
-  font-family: Myriad Pro;
 }
 
 .blogarticle{
-  width: 44%;
-  height: 25%;
+  width: 530px;
+  height: 300px;
   display: inline-block;
   font-size: 20px;
   float: left;
@@ -311,22 +322,18 @@ h1{
 
 .news{
     background-color:#77d4e3;
-    height: 27%;
-    width: 100%;
-    position: relative;
+    height: 450px;
+    width: 640px;
 }
-.news h2 a{
+.news h2{
   color: white;
   border-bottom: 2px solid white;
   padding: 2px;
   width: 100px;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 26px;
-}
-.news h2{
-  padding-bottom: 20px;
-  font-family: Myriad Pro;
+  font-size: 24px;
+
 }
 
 /*.extra{
@@ -336,29 +343,23 @@ h1{
 
 .photographyNews, .videoNews, .fashionNews{
   font-size: 20px;
-  width: 16.6666667%;
-  height: 16.6666667%;
+  width: 200px;
+  height: 200px;
   float:left;
   margin-top: 95px;
   margin-right: 50px;
-  line-height: 150%;
-
 }
 
 footer{
     background-color:#d4d3d6;
-    height: 6%;
-    width: 100%;
-}
-.footmenu{
-  margin-left: 80px;
-  
+    height: 150px;
+    width: 640px;
 }
 .footmenuleft{
-  width: 33.3333%;
+  width: 400px;
   border-left: 2px solid white;
   float: left;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: 187px;
   padding-left: 5px;
 
@@ -367,7 +368,7 @@ footer{
   border-right: 2px solid white;
   float: left;
   text-align: right;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-right: 187px;
   margin-left: 300px;
   padding-right: 5px;
@@ -376,10 +377,11 @@ footer{
 .footmenu a{
   display: block;
   padding-bottom: 4px;
-  color: black;
+
+
 }
 small{
 height: 30px;
-margin-left: 450px;
+margin-left: 407px;
 
 }

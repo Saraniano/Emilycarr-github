@@ -136,18 +136,10 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/backup original pacificView/index.html",
+			"file": "/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Hand-in-final project/Sara-zandi-Final Assignment web Dev&MotionGraphic/Read me",
 			"settings":
 			{
-				"buffer_size": 6576,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/backup original pacificView/css/style.css",
-			"settings":
-			{
-				"buffer_size": 5890,
+				"buffer_size": 677,
 				"line_ending": "Unix"
 			}
 		}
@@ -216,14 +208,15 @@
 	},
 	"file_history":
 	[
-		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/backup original pacificView/css/stylesMenu.css",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/backup original pacificView/css/style.css",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Plugin for pacificview/menu_source/index.html",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/backup original pacificView/index.html",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/backup original pacificView/Read me",
+		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/backup original pacificView/css/stylesMenu.css",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/george-menu.html",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/css/stylesMenu.css",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/css/style.css",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/index.html",
-		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/backup original pacificView/css/style.css",
-		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/backup original pacificView/Read me",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/js/index.js",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Original, pacificView/Read me",
 		"/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/Blog page/Blog.html",
@@ -332,36 +325,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/backup original pacificView/index.html",
-					"settings":
-					{
-						"buffer_size": 6576,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6537,
-								6537
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 6208.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -369,29 +334,27 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
-					"file": "/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Final project/backup original pacificView/css/style.css",
+					"buffer": 0,
+					"file": "/Users/sarazandi/Emilycarr,github/05-Web dev1. Friday/Hand-in-final project/Sara-zandi-Final Assignment web Dev&MotionGraphic/Read me",
 					"settings":
 					{
-						"buffer_size": 5890,
+						"buffer_size": 677,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2909,
-								2909
+								127,
+								127
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3260.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
