@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>Your Website</title>
+	<link rel="stylesheet" href="css/stylesMenu.css"/>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+
+<script type='text/javascript' src='menu_jquery.js'></script>
+
+
+
+</head>
+
+<body>
+	<div id='cssmenu'>
+<ul>
+   <li class='active'><a href='index2.html'><span>Video</span></a></li>
+   <li class='has-sub'><a href='#'><span>Photography</span></a>
+      <ul>
+         <li class='has-sub'><a href='#'><span>Countries</span></a>
+            <ul>
+               <li><a href='#'><span>Iran</span></a></li>
+               <li class='last'><a href='#'><span>Nepal</span></a></li>
+            </ul>
+         </li>
+         <li class='has-sub'><a href='#'><span>Event</span></a>
+            <ul>
+               <li><a href='#'><span>Showmax</span></a></li>
+               <li class='last'><a href='#'><span>Others</span></a></li>
+            </ul>
+         </li>
+      </ul>
+   </li>
+   <li><a href='#'><span>Fashion</span></a></li>
+   <li><a href='#'><span>News</span></a></li>
+   <li><a href='pages/Blog.html'><span>Blog</span></a></li>
+   <li><a href='#'><span>About</span></a></li>
+   <li><a href='#'><span>Contact</span></a></li>
+   <li id="mycartlast" class='last'><a href='#'>
+	   		<span id="toggle-login" class="button">My cart</span></a>
+
+			<div id="login">
+			  <div id="triangle"></div>
+			  <h1>Log in</h1>
+			  <form>
+			    <input type="email" placeholder="Email"/>
+			    <input type="password" placeholder="Password"/>
+			    <input type="submit" value="Log in"/>
+			  </form>
+			</div>
+		
+	</li>
+</ul>
+
+<!-- login form -->
+
+<!-- end login -->
+</div>
+<script>
+$('#toggle-login').click(function(){
+  $('#login').toggle();
+});
+</script>
+
+</body>
+
+</html>

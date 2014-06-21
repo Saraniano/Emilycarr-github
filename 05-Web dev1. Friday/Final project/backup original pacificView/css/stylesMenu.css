@@ -2,7 +2,7 @@
   position: relative;
   height: 44px;
   width: auto;
-  top: 76px;
+  top: 78px;
   right: 50px;
   left: 80px;
 
@@ -271,7 +271,7 @@ input[type="submit"]:hover{
 /*   end login form */
 /*    seprate botton from form*/
 
-li.last {
+li#mycartlast {
   position: relative;
   left:43px;
 }

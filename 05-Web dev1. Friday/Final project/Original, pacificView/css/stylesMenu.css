@@ -5,6 +5,7 @@
   top: 76px;
   right: 50px;
   left: 80px;
+  border:15px solid red;
 
 }
   
@@ -272,9 +273,9 @@ input[type="submit"]:hover{
 /*   end login form */
 /*    seprate botton from form*/
 
-li.last {
-  position: relative;
-  left:43px;
+li#mycartlast {
+  position: relative !important;
+  left:43px !important;
 }
 
 
